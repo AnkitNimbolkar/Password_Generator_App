@@ -108,7 +108,6 @@ export default function App() {
               handleReset,
             }) => (
               <>
-                //Taking input for Pass length
                 <View style={styles.inputWrapper}>
                   <View style={styles.inputColumn}>
                     <Text style={styles.heading}>Password Length</Text>
@@ -126,7 +125,7 @@ export default function App() {
                     keyboardType="numeric"
                   />
                 </View>
-                // Checkbox for lowerCase
+
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include LowerCase</Text>
                   <BouncyCheckbox
@@ -137,7 +136,7 @@ export default function App() {
                     fillColor="#29AB87"
                   />
                 </View>
-                // Checkbox for UpperCase
+
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include UpperCase</Text>
                   <BouncyCheckbox
@@ -148,7 +147,7 @@ export default function App() {
                     fillColor="#FED85D"
                   />
                 </View>
-                // Checkbox for Numbers
+
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Numbers</Text>
                   <BouncyCheckbox
@@ -159,7 +158,7 @@ export default function App() {
                     fillColor="#C9A0DC"
                   />
                 </View>
-                // Checkbox for Symbols
+
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Symbols</Text>
                   <BouncyCheckbox
